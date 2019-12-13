@@ -2,7 +2,7 @@ export interface SwitchPropsType {
   checked?: boolean;
   disabled?: boolean;
   onChange?: (checked: boolean) => void;
-  color?: string;
+  color?: object;
   name?: string;
   onPress?: (checked?: boolean) => void;
 }
